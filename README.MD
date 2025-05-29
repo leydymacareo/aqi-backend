@@ -1,12 +1,12 @@
-# 🌬️ AQI App - Backend
+# AQI App - Backend
 
 Este es el backend de la aplicación AQI Predictor. Se trata de una API REST desarrollada con FastAPI que recibe variables ambientales y demográficas, y devuelve una predicción sobre la calidad del aire en formato JSON. El modelo de predicción ha sido entrenado previamente y se ejecuta en un servidor remoto.
 
 ---
 
-## 🌐 Hosting
+## Hosting
 
-### 🔧 Servidor
+### Servidor
 Alojado en DigitalOcean:
 
 ```
@@ -19,7 +19,7 @@ Conexión por SSH:
 ssh -i digitalocean root@157.245.140.29
 ```
 
-### 📂 Ubicación del proyecto
+### Ubicación del proyecto
 
 El backend está instalado en:
 
@@ -29,7 +29,7 @@ El backend está instalado en:
 
 ---
 
-## 🚀 Inicio del servidor
+## Inicio del servidor
 
 Para ejecutar el servidor manualmente:
 
@@ -43,7 +43,7 @@ Esto levanta el servicio en la IP pública y puerto 8080 para que sea accesible 
 
 ---
 
-## 📊 Variables esperadas por el endpoint `/predict`
+## Variables esperadas por el endpoint `/predict`
 
 La API espera recibir un JSON con los siguientes campos:
 
@@ -60,7 +60,7 @@ La API espera recibir un JSON con los siguientes campos:
 
 ---
 
-## 📬 Ejemplo de uso con curl
+## Ejemplo de uso con curl
 
 ```bash
 curl -X POST http://157.245.140.29:8080/predict \
@@ -79,7 +79,7 @@ curl -X POST http://157.245.140.29:8080/predict \
 
 ---
 
-## ✅ Respuesta esperada
+## Respuesta esperada
 
 ```json
 {
@@ -96,7 +96,7 @@ Valores posibles para `"prediccion"`:
 
 ---
 
-## 📦 Requisitos del proyecto
+## Requisitos del proyecto
 
 - Python 3.10+
 - FastAPI
@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 aqi-app/
@@ -128,7 +128,7 @@ aqi-app/
 
 ---
 
-## 🤝 Enlace al Frontend
+## Enlace al Frontend
 
 Puedes consultar el repositorio móvil desarrollado en Jetpack Compose aquí:  
 ➡️ [AQI Predictor - App Android](https://github.com/tu-usuario/aqi-predictor)
