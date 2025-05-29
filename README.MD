@@ -131,7 +131,7 @@ aqi-app/
 ## Enlace al Frontend
 
 Puedes consultar el repositorio móvil desarrollado en Jetpack Compose aquí:  
-➡️ [AQI Predictor - App Android](https://github.com/tu-usuario/aqi-predictor)
+➡️ [AQI Predictor - App Android](https://github.com/leydymacareo/aqi-app.git)
 
 ---
 
