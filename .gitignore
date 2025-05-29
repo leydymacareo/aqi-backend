@@ -1,0 +1,8 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+digitalocean
+digitalocean.pub
+.DS_Store
