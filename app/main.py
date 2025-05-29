@@ -8,7 +8,17 @@ app = FastAPI()
 
 @app.post("/predict")
 def predict_air_quality(input: AQIInput):
-    data = list(input.dict().values())
+    data = [
+        input.temperatura,
+        input.humedad,
+        input.no2,
+        input.so2,
+        input.co,
+        input.proximidad,
+        input.densidadPoblacional,
+        input.pmTotal
+    ]
+    print(data)
     prediction = predict_aqi(data)
 
 
